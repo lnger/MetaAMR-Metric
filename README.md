@@ -12,6 +12,11 @@ MetaAMR-Metric is a cutting-edge metric-based meta-learning framework specifical
 python >= 3.8  
 torch >= 2.0.0  
 scikit-learn >= 1.3.2
+torch-geometric>=2.0.0
+rdkit
+numpy
+pandas
+biopython
 ```
 
 ## Project Structure
