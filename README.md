@@ -1,27 +1,32 @@
+当然，以下是你请求的英文版 `README.md`，包括修正格式的文件结构部分和简洁的英文说明：
+
+---
+
 # MetaAMR-Metric
 
-MetaAMR-Metric is a cutting-edge metric-based meta-learning framework designed specifically for predicting antimicrobial resistance (AMR). It intelligently matches optimal machine learning models to the characteristics of different antibiotics, revolutionizing the AMR prediction process.
+MetaAMR-Metric is a cutting-edge metric-based meta-learning framework specifically designed for predicting antimicrobial resistance (AMR). It intelligently matches the most suitable machine learning model to the characteristics of each antibiotic, significantly enhancing the AMR prediction process.
 
-## Environment requirement
-   
-    python>=3.8
-    torch>=2.0.0
-    sklearn>=1.3.2
-    
+## Environment Requirements
 
-## Documents
+```text
+python >= 3.8  
+torch >= 2.0.0  
+scikit-learn >= 1.3.2
+```
 
-  MetaAMR-Metric/
-    ├── Meta/     # 包含评估模型的实现  
-       ├── main.py/     # 元学习模型训练代码  
-       ├── Drugencoder.py/     # 药物分子结构编码  
-       ├── GAN.py/     # 数据增强模型 
-       ├── PrototypeNet.py/     # 原型网络模型 
-    ├── Models/     # 四种模型 
-       ├── GNN/     # GNN模型的实现
-          ├── GNN/     # GNN模型的实现
-          ├── GNN/     # GNN模型的实现
-          ├── GNN/     # GNN模型的实现
-       ├── ML_models.py/     # LR,RF,SVM三种模型的实现  
-    ├── README.md
+## Project Structure
 
+```text
+MetaAMR-Metric/
+├── Meta/                         # Meta-learning module and model training code  
+│   ├── main.py                  # Main training script for the meta-learning model  
+│   ├── Drugencoder.py           # Drug molecular structure encoder  
+│   ├── GAN.py                   # GAN-based data augmentation module  
+│   ├── PrototypeNet.py          # Prototype network model definition  
+│
+├── Models/                       # Basic machine learning models  
+│   ├── GNN/                     # Implementation of the GNN model  
+│   ├── ML_models.py             # Implements Logistic Regression, Random Forest, and SVM  
+│
+├── README.md                    # Project description and documentation  
+```
