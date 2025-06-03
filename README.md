@@ -1,7 +1,3 @@
-当然，以下是你请求的英文版 `README.md`，包括修正格式的文件结构部分和简洁的英文说明：
-
----
-
 # MetaAMR-Metric
 
 MetaAMR-Metric is a cutting-edge metric-based meta-learning framework specifically designed for predicting antimicrobial resistance (AMR). It intelligently matches the most suitable machine learning model to the characteristics of each antibiotic, significantly enhancing the AMR prediction process.
