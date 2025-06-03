@@ -10,6 +10,7 @@ MetaAMR-Metric is a cutting-edge metric-based meta-learning framework designed s
     
 
 ## Documents
+
   MetaAMR-Metric/
     ├── Meta/      # 存放元数据和配置文件
        ├── main.py/
@@ -17,9 +18,6 @@ MetaAMR-Metric is a cutting-edge metric-based meta-learning framework designed s
        ├── GAN.py/
        ├── PrototypeNet.py/
     ├── Models/     # 包含评估模型的实现   
-       ├── GNN/
-          ├── GNN/
-       ├── ML_models.py/
+       ├── GNN/     # 包含评估模型的实现  
+       ├── ML_models.py/     # 包含评估模型的实现  
     ├── README.md            # 项目说明文档
-    ├── requirements.txt     # Python 依赖列表
-    └── setup.py             # 安装脚本（如适用）
